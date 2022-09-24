@@ -1,7 +1,4 @@
-let isRaining = true
-let temprature = 20
-let planet = "Earth"
+let celsius = 20
+let fahrenheit = celsius * 1.8 + 32 
 
-temprature = temprature + 2
-
-console.log(temprature)
+console.log(fahrenheit)
