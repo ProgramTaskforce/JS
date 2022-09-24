@@ -1,3 +1,12 @@
-let bool = "1" == 1
+let subscribed = true
+let loggedIn = false
 
-console.log(bool)
+if (subscribed === true) {
+    console.log("show the video")
+}
+else if (loggedIn === true) {
+    console.log ("buy premium")
+}
+else {
+    console.log ("tell user to log into account")
+}
