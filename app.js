@@ -1,4 +1,3 @@
-let celsius = 20
-let fahrenheit = celsius * 1.8 + 32 
+let bool = "1" == 1
 
-console.log(fahrenheit)
+console.log(bool)
