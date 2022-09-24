@@ -1,12 +1,18 @@
+let loggedIn = true
 let subscribed = true
-let loggedIn = false
 
-if (subscribed === true) {
-    console.log("show the video")
+
+
+
+if (loggedIn && subscribed === true) {
+    console.log ("show the video")
 }
-else if (loggedIn === true) {
-    console.log ("buy premium")
+
+
+else if(loggedIn === false) {
+    console.log ("log into your account")
 }
-else {
-    console.log ("tell user to log into account")
+
+else if(subscribed === false) {
+    console.log("subscribe to pro")
 }
