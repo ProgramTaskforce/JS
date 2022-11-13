@@ -1,16 +1,23 @@
-// let hot = false
-// 
-// hot ? console.log("weather is hot outside") : console.log("weather is cold")
+// for (let i = 0; i < 3; i = i +1) {
+//   console.log(i);
+// }
 
-// let subscribed = true 
-// let loggedIn = true 
-// 
-// let str = subscribed && loggedIn ? " show the video" : "hide video"
-// console.log(str);
+for (let i = 1; i <= 20; i++) {
+  
+if (i % 3 === 0 && i % 5 === 0) {
+  console.log("Frontend Simplified")
+}
+  
+else if (i % 3 === 0) {
+  console.log("Frontend");
+}
 
-let cash = 50
-let price = 40
-let isStoreOpen = true
+else if (i % 5 === 0) {
+  console.log("Simplified")
+}
 
-let str = cash >= price && isStoreOpen ? "print the recipt" : "dont print the recipt"
-console.log(str)
+else {
+  console.log(i)
+}
+
+}
