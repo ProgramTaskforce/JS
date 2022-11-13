@@ -26,21 +26,27 @@
 // }
 
 
- for (let i = 1; i <= 20; i++) {
- 
-   if(i % 3 === 0 && i % 5 === 0) {
-     console.log(`${i} -> Frontend Simplified`)
-   }
- 
-   else if(i % 3 === 0) {
-     console.log(`${i} -> Frontend`)
-   }
+// for (let i = 1; i <= 20; i++) {
+// 
+//   if(i % 3 === 0 && i % 5 === 0) {
+//     console.log(`${i} -> Frontend Simplified`)
+//   }
+// 
+//   else if(i % 3 === 0) {
+//     console.log(`${i} -> Frontend`)
+//   }
+//
+//   else if(i % 5 === 0) {
+//    console.log(`${i} -> Simplified`)
+//   }
+//
+//   else {
+//    console.log(`${i} -> ${i} `)
+//   }
+// }
 
-   else if(i % 5 === 0) {
-    console.log(`${i} -> Simplified`)
-   }
+const str = "Frontend Simplified"
 
-   else {
-    console.log(`${i} -> ${i} `)
-   }
- }
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i]);
+}
