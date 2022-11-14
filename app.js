@@ -1,6 +1,5 @@
-function fn() {
-  return 5                      // return function blocks every line of code that is following after
-  console.log(`my function`)
+function sumOfTwoNumbers(num1, num2) {             // num 1 and num2 here is called PARAMETER
+  return num1 + num2                    
 }
 
-fn();
+console.log(sumOfTwoNumbers(10, 10));            // 10 and 10 here is called ARGUMENT
