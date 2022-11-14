@@ -16,7 +16,7 @@
  */
 
 function convertCelsiusToFahrenheit(celsius) {
-  return celsius * 1.8 + 32
+  return `Celsius ${celsius} -> Fahrenheit ` + (celsius * 1.8 + 32)
 }
 
 console.log(convertCelsiusToFahrenheit(0));
