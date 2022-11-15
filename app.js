@@ -22,3 +22,16 @@ function convertCelsiusToFahrenheit(celsius) {
 console.log(convertCelsiusToFahrenheit(0));
 console.log(convertCelsiusToFahrenheit(10));
 console.log(convertCelsiusToFahrenheit(30));
+
+/**
+ *
+ * second way to define a FUNCTION with an ARROW
+ * 
+ * 
+ *                     const convertCelsiusToFahrenheit = (celsius) => {
+ *                       return celsius * 1.8 + 32
+ *                     }
+ *                     
+ *                     console.log(convertCelsiusToFahrenheit(0))
+ * 
+ */
