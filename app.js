@@ -1,24 +1,21 @@
-// let item1 = 20
-// let item2 = 30
-// let item3 = 40
-// let item4 = 50
-// let item5 = 100
+let arr = [20, 30, 40, 50, 100]
 
-let arr = [20, 30, 40, 50, 100]    // you can put also strings, boleans and so on inside here additionally
+let newArr = arr.filter((element) => {
+  console.log(element)                             // the array loop, prints every element ONE BY ONE, 
+  if (element < 50){
+    return true;
+  }
+})
 
-// print first element of array
+console.log(newArr)                                 //  loop returns 3 times, printing 20,30,40 because of the else statement
 
-console.log(arr[0])
-
-// last element of array:
-
-console.log(arr[arr.length - 1])
-
-// ADD element to Array
-
-arr.push(200)                            // JS reads everything line by line , so before push the last element is 100
-
-console.log(arr)                         // and after push the last element is 200, but console.log of last element before push stays the same   
+// SCHLANKER machern
 
 
+let newArr = arr.filter(element => {                // wenn nur 1 element, können die doppelten klammern weg (()) -> ()
+  return (element < 50){                                 // remove console.log, its doing nothing, delete return true and if, and put the reutrn instead of if
+    
+  }
+})
 
+console.log(newArr) 
