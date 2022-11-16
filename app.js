@@ -1,35 +1,18 @@
-// let arr = [20, 30, 40, 50, 100]
-// 
-// let newArr = arr.filter(element => element < 50)               
-// 
-// console.log(newArr) 
+// ARRAY Method MAP
 
+let arr = [1, 4, 9, 16]
 
-/** TRAINING EXERCISE
- * 
- * Filter out all the "Fail" elements in an array
- * 
- * @examples
- * ["A+", "A", "Fail"] => ["A+", "A"] 
- * ["Fail", "Fail", "B"] => ["B"]
- * ["Fail"] => []
- * 
- */
+let newArray = arr.map((element) => {
+  console.log(element)
+  return undefined;
+})
 
-// Meine erste Lösung
+console.log(newArray)
 
-// let grades = ["A+", "A", "Fail"]
+// shorter Way
 
-// let arr = ['A+', 'A', 'Fail']
-// 
-// let newArr = arr.filter(element => element !== 'Fail')
-// 
-// console.log(newArr)
+let arr = [1, 4, 9, 16]
 
-// BESSER mit genauer bezeichnung
+let newArray = arr.map(element => 'dog')
 
-let grades = ['A+', 'A', 'Fail']
-
-let goodGrades = grades.filter(element => element !== 'Fail')
-
-console.log(goodGrades)
+console.log(newArray)
