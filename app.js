@@ -1,18 +1,24 @@
-// ARRAY Method MAP
+/**
+ * EXercise MAP Array
+ * 
+ * Turn each element in an array of dollars into cents
+ * 
+ * @examples
+ * 
+ * [1, 5, 10, 3] => [100, 500, 1000, 300]
+ * [0, 10, 20] =Y [0, 1000, 2000]
+ */
 
-let arr = [1, 4, 9, 16]
+// let dollars = [1, 5, 10, 3]
+// 
+// let dollarsToCents = dollars.map((element) =>{
+//   return element * 100
+// })
+// 
+// console.log(dollarsToCents)
 
-let newArray = arr.map((element) => {
-  console.log(element)
-  return undefined;
-})
+let dollars = [1, 5, 10, 3]
 
-console.log(newArray)
+let dollarsToCents = dollars.map(element => element * 100)
 
-// shorter Way
-
-let arr = [1, 4, 9, 16]
-
-let newArray = arr.map(element => 'dog')
-
-console.log(newArray)
+console.log(dollarsToCents)
