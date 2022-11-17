@@ -1,22 +1,25 @@
-/**
- * EXercise MAP Array
- * 
- * Turn each element in an array of dollars into cents
- * 
- * WITHOUT using MAP method
- * 
- * @examples
- * 
- * [1, 5, 10, 3] => [100, 500, 1000, 300]
- * [0, 10, 20] =Y [0, 1000, 2000]
- */
+let users = [                                       
+  {                                                 
+  username: 'David',                                
+  email: 'david@frontendsimplified.com',
+  password: 'test123',
+  subscriptionStatus: 'VIP',
+  discordID: 'David Bragg#0001',
+  lessonsCompleted: [0, 1]               
+}, 
+{
+  username: 'Mitri',
+  email: 'mitri@frontendsimplified.com',
+  password: 'mitri123',
+  subscriptionStatus: 'VIP',
+  discordID: 'Mitri#0001',
+  lessonsCompleted: [0, 1, 2, 3]   
+},
+];
 
-let dollars = [1, 5, 10, 3]
-
-let dollarsToCents =[]                             // create new dollars to cents array
-
-for (let i = 0; i < dollars.length; i++){          // loop over every element in dollars
-  dollarsToCents.push(dollars[i] * 100)            // convert dollars into cents
+function login(email, password) {
+  for (let i = 0)
+  console.log(email, password);
 }
 
-console.log(dollarsToCents)                        // console log cents
+login('frontendsimplified', 'test123')
