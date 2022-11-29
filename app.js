@@ -1,12 +1,12 @@
-// First way of accesing an element
+// change inner html
 
-console.log(document)           // checking the document
+document.querySelector('.title').innerHTML = 'Frontend Simplified'
 
-console.log(document.querySelector('#title'));      // accesing the ID title   #- for id  . - for classes or f.e. h1 for all h1
-// before that you need to put a defer into the js script in the index.html                                      without # . 
-// <script src="app.js" defer></script>
+// Change CSS
 
-// Second way of accesing an element
+document.querySelector('.title').style.fontSize = '16px'
 
-console.log(document.getElementById('title'))
+function changeTitleToRed () {
+  document.querySelector('.title').style.color = 'red'
+  }
 
