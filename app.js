@@ -9,4 +9,3 @@ document.querySelector('.title').style.fontSize = '16px'
 function changeTitleToRed () {
   document.querySelector('.title').style.color = 'red'
   }
-
